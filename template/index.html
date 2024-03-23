@@ -13,7 +13,7 @@
     </form>
     <h1>{{.PageTitle}}</h1>
     <ul>
-    {{range .Todos}
+    {{range .Todos}}
          {{if .Done}}
          <li class="done">{{.Title}} <a href="/delete/{{.ID}}"> Delete</a></li>
          {{else}}
